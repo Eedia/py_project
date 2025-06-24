@@ -9,3 +9,8 @@ __pycache__/
 *.png
 *.csv
 *.xlsx
+*.xls
+*.exe
+
+
+*강사*
